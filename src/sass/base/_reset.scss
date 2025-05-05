@@ -1,0 +1,94 @@
+::before,
+::after {
+box-sizing: border-box;
+display: inline-block;
+}
+
+* {
+box-sizing: border-box;
+}
+
+html,
+body {
+margin: 0;
+padding: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin: 0;
+padding: 0;
+}
+
+ul,
+ol,
+li {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+img {
+margin: 0;
+padding: 0;
+display: block;
+max-width: 100%;
+}
+
+a {
+text-decoration: none;
+font-style: normal;
+}
+
+button {
+
+border: none;
+background-color: transparent;
+cursor: pointer;
+}
+section {
+margin: 0 auto;
+}
+header {
+margin: 0 auto;
+}
+footer {
+margin: 0 auto;
+}
+
+input {
+padding: 0;
+margin: 0;
+}
+main {
+  margin: 0 auto;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+.container {
+box-sizing: border-box;
+padding: 0 15px;
+margin: 0 auto;
+  // outline: solid navy;
+
+@media screen and (min-width: $mobile-adapt) {
+    width: $mobile-adapt;
+    
+}
+@media screen and (min-width: $tablet-adapt) {
+    width: $tablet-adapt;
+}
+@media screen and (min-width: $desktop-adapt) {
+width: $desktop-adapt;
+}
+}
+
+
