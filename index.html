@@ -10,23 +10,51 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&family=Montserrat+Alternates&family=Sacramento&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
-    <script type="module" crossorigin src="/coding-magic-team-project/assets/index-ecc94cf1.js"></script>
-    <link rel="stylesheet" href="/coding-magic-team-project/assets/index-7224dcfd.css">
+    <script type="module" crossorigin src="/coding-magic-team-project/assets/index-1e0eed21.js"></script>
+    <link rel="stylesheet" href="/coding-magic-team-project/assets/index-f3e460b9.css">
   </head>
   <body>
-    <section>
-      <h1>Lorem ipsum dolor sit amet.</h1>
-      <!-- Path to images as from index.html file -->
-      <img src="./img/javascript.svg" alt="" />
-    </section>
 
     <!-- Loads the specified .html file -->
-    
+    <header class="header">
+    <div class="container header-flex">
+        <a href="./index.html">
+            <img src="#" alt="Logo">
+        </a>
+        <p class="header-filter">Інтерактив</p>
+        <a href="./index.html" class="header-team-link">Наша команда</a>
+        <a href="./index.html" class="header-contact-link">Контакти</a>
+        <label class="toggle">
+            <input type="checkbox" id="themeToggle" />
+            <div class="slider">
+            <div class="toggle-dot">
+                <div class="icon">
+                <img src="#" alt="icon" id="themeIcon" class="toggle-icon" />
+                </div>
+            </div>
+            </div>
+        </label>
+        <p class="header-login"></p>
+    </div>
+</header>
     <main class="main">
-      <h1 class="main-title">Популярні інтерактивні ігри</h1>
+      <div class="container">
+        <h1 class="main-title">Популярні інтерактивні ігри</h1>
     
     
-    
+    <div class="rps-card">
+        <h2 class="rps-title">Камінь - ножиці - папір</h2>
+        <div class="rock-box">
+            <img src="#" alt="rock">
+        </div>
+        <div class="scissors-box">
+            <img src="#" alt="scissors">
+        </div>
+        <div class="paper-box">
+            <img src="#" alt="paper">
+        </div>
+        <p class="rps-result"></p>
+</div>
     <div class="calculator">
   <h1>Калькулятор</h1>
   <div class="calculator-input">
@@ -79,6 +107,7 @@
 
 
     
+  </div>
   </main>
     
     
