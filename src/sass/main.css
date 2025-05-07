@@ -1,4 +1,3 @@
-@charset "UTF-8";
 ::before,
 ::after {
   box-sizing: border-box;
@@ -171,13 +170,13 @@ body {
 }
 
 .greatest-num-container {
-  padding-bottom: 1px; /* Місце для лінії */
+  padding-bottom: 1px;
 }
 
 .bottom-line {
-  width: 560px; /* Фіксована ширина */
-  height: 1px; /* Товщина лінії */
-  background: #000; /* Чорний колір */
-  margin: 36px auto; /* Автовідступи для центрування + відступ зверху/знизу */
+  width: 560px;
+  height: 1px;
+  background: #000;
+  margin: 36px auto;
   display: block;
 }/*# sourceMappingURL=main.css.map */
