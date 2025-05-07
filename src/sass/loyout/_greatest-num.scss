@@ -53,4 +53,25 @@
     align-items: center;
     justify-content: center;
     padding-top: 54px;
+
+
 }
+
+.greatest-num-container {
+    padding-bottom: 1px; /* Місце для лінії */
+  }
+  
+ 
+  .bottom-line {
+   
+    width: 560px;         /* Фіксована ширина */
+    height: 1px;          /* Товщина лінії */
+    background: #000;     /* Чорний колір */
+    margin: 36px auto;    /* Автовідступи для центрування + відступ зверху/знизу */
+    display: block;
+  }
+
+
+
+
+
