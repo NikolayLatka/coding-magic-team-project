@@ -1,18 +1,12 @@
-
-  $mobile: 480px;
+ $mobile: 480px;
   $tablet: 768px;
   $desktop: 1200px;
-  
-
 
 .container {
-
   margin: 0 auto;
   width: 1120px;
   padding: 0 15px;
-
-
-
+  
   @media screen and (min-width: $mobile) {
     width: $mobile;
     
@@ -23,7 +17,6 @@
   @media screen and (min-width: $desktop) {
   width: $desktop;
   }
-
 }
 
 

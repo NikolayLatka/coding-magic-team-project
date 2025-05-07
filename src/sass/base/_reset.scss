@@ -79,16 +79,7 @@ padding: 0 15px;
 margin: 0 auto;
   // outline: solid navy;
 
-@media screen and (min-width: $mobile-adapt) {
-    width: $mobile-adapt;
-    
-}
-@media screen and (min-width: $tablet-adapt) {
-    width: $tablet-adapt;
-}
-@media screen and (min-width: $desktop-adapt) {
-width: $desktop-adapt;
-}
+
 }
 
 
