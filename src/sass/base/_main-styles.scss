@@ -1,0 +1,23 @@
+.main {
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
+
+
+.main-title {
+    position: relative;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+.main::before {
+    position: absolute;
+    bottom: 36px;
+    display: block;
+    content: " ";
+    width: 536px;
+    height: 1px;
+    background-color: black;
+}
