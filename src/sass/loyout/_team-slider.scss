@@ -1,49 +1,111 @@
-.team-slider {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
+// .team-slider {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     gap: 20px;
     
-    .slider-wrapper {
-      display: flex;
-      align-items: center;
-      gap: 15px;
-      width: 100%;
-      max-width: 900px;
-    }
+//     .slider-wrapper {
+//       display: flex;
+//       align-items: center;
+//       gap: 15px;
+//       width: 100%;
+//       max-width: 900px;
+//     }
   
-    .slider {
-      display: flex;
-      gap: 15px;
-      overflow-x: auto;
-      scroll-snap-type: x mandatory;
-      padding: 10px 0;
-      width: 100%;
+//     .slider {
+//       display: flex;
+//       gap: 15px;
+//       overflow-x: auto;
+//       scroll-snap-type: x mandatory;
+//       padding: 10px 0;
+//       width: 100%;
       
-      &::-webkit-scrollbar {
-        display: none; // Ховаємо скроллбар
-      }
-    }
+//       &::-webkit-scrollbar {
+//         display: none; // Ховаємо скроллбар
+//       }
+//     }
   
-    .slider-img {
-      width: 150px;
-      height: 150px;
-      border-radius: 20px;
-      object-fit: cover;
-      scroll-snap-align: start;
-      flex-shrink: 0; 
-    }
+//     .slider-img {
+//       width: 150px;
+//       height: 150px;
+//       border-radius: 20px;
+//       object-fit: cover;
+//       scroll-snap-align: start;
+//       flex-shrink: 0; 
+//     }
   
-    .arrow {
+//     .arrow {
       
-    }
-  }
+//     }
+//   }
 
-  .line{
+//   .line{
 
-    width: 536px; 
-    height: 1px;
-    background-color: black;
-    margin: 20px auto;
-    display: block;
+//     width: 536px; 
+//     height: 1px;
+//     background-color: black;
+//     margin: 20px auto;
+//     display: block;
+// }
+
+.team-slider {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.slider-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  
+}
+
+.slider {
+  position: relative;
+  width: 300px;
+  height: 350px;
+  overflow: hidden;
+}
+
+.slide {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.slide.active {
+  opacity: 1;
+}
+
+.slider-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  top: 100px;
+}
+
+.arrow {
+ 
+}
+
+.arrow img {
+  width: 100%;
+  height: auto;
+}
+
+.slide-content {
+  margin-top: 20px;
+  position: relative;
+  top: 100px;
 }
