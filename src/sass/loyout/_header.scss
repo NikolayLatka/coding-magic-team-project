@@ -1,0 +1,94 @@
+.header-flex {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    background-color: #ffffff;
+    width: 1440px;
+    height: 80px;
+    gap: 55px;
+    padding-left: 175px;
+    user-select: none;
+}
+
+
+.header-arrow {
+    transform: rotate(90deg);
+}
+
+.interactives-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 5px;
+
+}
+
+
+.header-logo {
+    width: 133px;
+}
+
+.header-team-link {
+    width: 130px;
+}
+
+
+.toggle input {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: relative;
+    background-color: rgb(122, 122, 122);
+    width: 40px;
+    height: 20px;
+    border-radius: 60px;
+    cursor: pointer;
+    transition: background-color 0.4s;
+    margin-left: 251px;
+}
+
+.toggle-dot {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: transform 0.4s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+input:checked + .slider {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+}
+
+input:checked + .slider .toggle-dot {
+    transform: translateX(20px);
+}
+
+.icon {
+    width: 14px;
+    height: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+}
+
+.icon img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+
