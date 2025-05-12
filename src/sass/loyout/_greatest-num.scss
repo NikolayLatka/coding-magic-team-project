@@ -63,3 +63,59 @@
     margin: 20px auto;
     display: block;
 }
+
+
+@media (max-width: 1024px) {
+    .input-group {
+        width: 120px;
+        height: 32px;
+        border-width: 15px;
+        font-size: 15px;
+    }
+
+    .input-row {
+        gap: 15px;
+        padding-top: 30px;
+    }
+
+    .line {
+        width: 80%;
+    }
+
+    .input-result,
+    .result {
+        padding-top: 40px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .input-group {
+        width: 80px;
+        height: 24px;
+        border-width: 10px;
+        font-size: 12px;
+        border-radius: 15px;
+    }
+
+    .input-row {
+        gap: 8px;
+        padding-top: 20px;
+    }
+
+    .input {
+        font-size: 8px;
+        position: relative;
+        top:3px;
+    }
+
+    .input-result,
+    .result {
+        padding-top: 25px;
+    }
+
+    .line {
+        width: 90%;
+        margin: 15px auto;
+    }
+}
