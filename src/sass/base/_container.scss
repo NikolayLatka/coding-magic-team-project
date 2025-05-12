@@ -3,10 +3,8 @@
   $tablet: 768px;
   $desktop: 1200px;
 
-.container {
-$mobile: 460px;
-$tablet: 768px;
-$desktop: 1200px;
+
+
 .container {
  
 
@@ -16,7 +14,10 @@ $desktop: 1200px;
   width: 1120px;
   padding: 0 15px;
   
-  @media screen and (min-width: $mobile) {
+ 
+}
+
+ @media screen and (min-width: $mobile) {
     width: $mobile;
     
   }
@@ -26,7 +27,6 @@ $desktop: 1200px;
   @media screen and (min-width: $desktop) {
   width: $desktop;
   }
-}
 
 
 
