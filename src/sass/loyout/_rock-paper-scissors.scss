@@ -1,0 +1,83 @@
+.rps-card {
+    margin-top: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rps-card::after {
+    content: " ";
+    display: block;
+    width: 536px;
+    height: 1px;
+    background-color: black;
+    margin-top: 36px;
+}
+
+.rps-box {
+    border-radius: 20px;
+    background: rgb(0, 0, 0);
+    width: 60px;
+    height: 60px;
+
+}
+
+
+.rps-title {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    transform: scale(1.2);
+}
+
+.rps-result {
+    margin-top: 36px;
+}
+
+.computer-result {
+    margin-top: 36px;
+    width: 182px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    font-size: 12px;
+    transform: scale(1.2);
+
+}
+
+.box-wrap {
+    margin-top: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 38px;
+}
+
+.rock-box {
+    background-image: url(../../img/stone.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40px;
+    cursor: pointer;
+}
+
+.scissors-box {
+    background-image: url(../../img/scissors.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40px;
+    cursor: pointer;
+}
+
+.paper-box {
+    background-image: url(../../img/paper.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40px;
+    cursor: pointer;
+}
