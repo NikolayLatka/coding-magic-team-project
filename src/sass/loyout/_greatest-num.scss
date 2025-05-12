@@ -75,20 +75,7 @@
         font-size: 15px;
     }
 
-    .input-row {
-        gap: 15px;
-        padding-top: 30px;
-    }
 
-    .line {
-        width: 80%;
-    }
-
-    .input-result,
-    .result {
-        padding-top: 40px;
-    }
-}
 
 
 @media (max-width: 480px) {
@@ -120,6 +107,7 @@
         width: 90%;
         margin: 15px auto;
     }
+
 }
 
 
