@@ -1,6 +1,18 @@
 .calculator {
+  padding-top: 36px;
+  padding-bottom: 36px;
   text-align: center;
   font-family: 'Arial', sans-serif;
+}
+
+.calculator::after {
+  margin: 0 auto;
+  content: ' ';
+  display: block;
+  width: 536px;
+  height: 1px;
+  background-color: black;
+  margin-top: 36px;
 }
 
 .calculator-title {
