@@ -1,0 +1,71 @@
+.footer {
+    width: 1440px;
+    margin: 0 auto;
+    height: 220px;
+    background-color: white;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 1438px;
+    margin: 0 auto;
+    height: 220px;
+    gap: 186px;
+}
+
+.footer-logo {
+    width: 165px;
+    height: 70px;
+}
+
+.info-wrapper {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    width: 290px;
+    line-height: 170%;
+}
+
+
+.footer-input {
+    width: 204px;
+    height: 35px;
+    background-color: rgb(215, 215, 215);
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+.footer-form-wrapper {
+    width: 357px;
+    height: 35px;
+
+}
+
+.footer-form-wrapper::after {
+    content: "*Підписавшись, Ви зможете ортимувати інформаццію про новинки на сайті";
+    width: 264px;
+    font-size: 6px;
+    font-weight: 400;
+    line-height: 7px;
+}
+
+.footer-submit {
+    width: 107px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    margin-left: 36px;
+}
