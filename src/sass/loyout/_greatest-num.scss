@@ -1,63 +1,65 @@
 
 
-.number-container{
+
+
+
+
+
+
+.number-container_dark {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
 }
 
-.input-group{
+.input-group_dark {
     border: none;          
-  outline: none;
+    outline: none;
     display: flex;
     flex-direction: column;
-    border: 20px solid #D7D7D7 ;
+    border: 20px solid #D7D7D7;
     border-radius: 20px;
     background-color: #D7D7D7;
     font-size: 16px;
     width: 135px;
     height: 35px;
     box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.25);
- 
-    
-    
 }
 
-.input-row{
+.input-row_dark {
     display: flex;
     gap: 20px;
     padding-top: 36px;
 }
 
-.input-result{
+.input-result_dark {
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 54px;
 }
 
-.input-title{
+.input-title_dark {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.input{
+.input_dark {
     all: unset;
     font-size: 12px;
     margin-top: -7px;
 }
-.result{
+
+.result_dark {
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 54px;
-
 }
 
-.line{
-
+.line_dark {
     width: 536px; 
     height: 1px;
     background-color: black;
@@ -65,21 +67,17 @@
     display: block;
 }
 
-
-
 @media (max-width: 1024px) {
-    .input-group {
+    .input-group_dark {
         width: 120px;
         height: 32px;
         border-width: 15px;
         font-size: 15px;
     }
-
-
-
+}
 
 @media (max-width: 480px) {
-    .input-group {
+    .input-group_dark {
         width: 80px;
         height: 24px;
         border-width: 10px;
@@ -87,49 +85,36 @@
         border-radius: 15px;
     }
 
-    .input-row {
+    .input-row_dark {
         gap: 8px;
         padding-top: 20px;
     }
 
-    .input {
+    .input_dark {
         font-size: 8px;
         position: relative;
-        top:3px;
+        top: 3px;
     }
 
-    .input-result,
-    .result {
+    .input-result_dark,
+    .result_dark {
         padding-top: 25px;
     }
 
-    .line {
+    .line_dark {
         width: 90%;
         margin: 15px auto;
     }
-
 }
 
-
-}
-
-.greatest-num-container {
+.greatest-num-container_dark {
     padding-bottom: 1px; 
-  }
-  
- 
-  .bottom-line {
-   
+}
+
+.bottom-line_dark {
     width: 560px;         
     height: 1px;          
     background: #000;     
     margin: 36px auto;    
     display: block;
-  }
-
-
-
-
-
-
-
+}
