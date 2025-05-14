@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const slides = document.querySelectorAll('.slide');
-    const prevBtn = document.querySelector('.left-arrow');
-    const nextBtn = document.querySelector('.right-arrow');
+    const slides = document.querySelectorAll('.slide_dark');
+    const prevBtn = document.querySelector('.left-arrow_dark');
+    const nextBtn = document.querySelector('.right-arrow_dark');
     let currentSlide = 0;
 
     
@@ -10,14 +10,14 @@ document.addEventListener('DOMContentLoaded', function() {
     function showSlide(index) {
 
         slides.forEach(slide => {
-            slide.classList.remove('active');
+            slide.classList.remove('active_dark');
         });
         
    
         currentSlide = (index + slides.length) % slides.length;
         
        
-        slides[currentSlide].classList.add('active');
+        slides[currentSlide].classList.add('active_dark');
     }
 
    
