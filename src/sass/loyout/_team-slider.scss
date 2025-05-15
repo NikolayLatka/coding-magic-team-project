@@ -61,85 +61,86 @@
   top: 100px;
 }
 
-@media (max-width: 768px) {
-  .team-slider {
-    padding: 10px;
-    max-width: 100%;
-  }
+// @media (max-width: 768px) {
+//   .team-slider {
+//     padding: 10px;
+//     max-width: 100%;
+//   }
 
-  .slider-wrapper {
-    flex-direction: column;
-    gap: 10px;
-  }
+//   .slider-wrapper {
+//     flex-direction: column;
+//     gap: 10px;
+//   }
 
-  .slider-team {
-    width: 100%;
-    height: auto;
-  }
+//   .slider-team {
+//     width: 100%;
+//     height: auto;
+//   }
 
-  .slider-img {
-    width: 120px;
-    height: 120px;
-    top: 0;
-  }
+//   .slider-img {
+//     width: 120px;
+//     height: 120px;
+//     top: 0;
+//   }
 
-  .slide-content {
-    top: 0;
-    margin-top: 10px;
-  }
+//   .slide-content {
+//     top: 0;
+//     margin-top: 10px;
+//   }
 
-  .arrow {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    padding: 0 20px;
-  }
+//   .arrow {
+//     display: flex;
+//     justify-content: space-between;
+//     width: 100%;
+//     padding: 0 20px;
+//   }
 
-  .arrow img {
-    width: 30px;
-    height: auto;
-  }
-}
+//   .arrow img {
+//     width: 30px;
+//     height: auto;
+//   }
+// }
 
-@media (max-width: 460px) {
-  .team-slider {
-    padding: 10px;
-    max-width: 100%;
-  }
+// @media (max-width: 460px) {
+//   .team-slider {
+//     padding: 10px;
+//     max-width: 100%;
+//   }
 
-  .slider-wrapper {
-    flex-direction: column;
-    gap: 10px;
-  }
+//   .slider-wrapper {
+    
+//     flex-direction: column;
+//     gap: 10px;
+//   }
 
-  .slider-team {
-    width: 100%;
-    height: auto;
-  }
+//   .slider-team {
+//     width: 100%;
+//     height: auto;
+//   }
 
-  .slider-img {
-    width: 120px;
-    height: 120px;
-    top: 0;
-  }
+//   .slider-img {
+//     width: 120px;
+//     height: 120px;
+//     top: 0;
+//   }
 
-  .slide-content {
-    top: 0;
-    margin-top: 10px;
-  }
+//   .slide-content {
+//     top: 0;
+//     margin-top: 10px;
+//   }
 
-  .arrow {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    padding: 0 20px;
-  }
+//   .arrow {
+//     display: flex;
+//     justify-content: space-between;
+//     width: 100%;
+//     padding: 0 20px;
+//   }
 
-  .arrow img {
-    width: 30px;
-    height: auto;
-  }
-}
+//   .arrow img {
+//     width: 30px;
+//     height: auto;
+//   }
+// }
 .team-slider_dark {
  color: white;
     background-color: #494949;
