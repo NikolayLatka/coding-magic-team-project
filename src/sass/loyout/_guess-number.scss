@@ -1,0 +1,90 @@
+
+.guess-section{
+     width: 576px; 
+     height: 91px; 
+     font-family: Arial, sans-serif; 
+     text-align: center; 
+     color: #333; 
+     padding: 20px; 
+     font-family: Montserrat Alternates;
+
+     
+    } 
+    .guess-title {
+       font-size:16px;
+       font-weight: 400; 
+       margin-bottom: 56px;
+        } 
+        .input-container 
+        { 
+            display: flex; 
+            align-items: center; 
+            justify-content: space-between; 
+            background-color: rgb(220, 220, 220); 
+            border: 2px solid rgb(215, 215, 215); 
+            border-radius: 20px; overflow: hidden; 
+            width: 150px; 
+            height: 35px; 
+            padding: 2px; 
+            box-shadow: 0 4px 6px rgba(173, 124, 124, 0.1); }
+
+            .input-container input { 
+
+                border: none;
+                 outline: none;
+                  padding: 3px; 
+                  width: 70%; 
+                  font-size: 12px; 
+                  font-weight: 400px; 
+                  background-color: rgb(220, 220, 220); 
+                  color: #805252; }
+
+                   .search-icon { 
+
+                    background-color: rgb(0, 0, 0); 
+                    padding: 10px; 
+                    display: flex; 
+                    align-items: center; 
+                    justify-content: center; 
+                    cursor: pointer;
+                     border-radius: 0 20px 20px 0; } 
+
+                     .search-icon img { 
+
+                        width: 20px; 
+                        height: 20px; } 
+
+                        .resultMessage { 
+
+                            font-size: 18px; 
+                                  font-weight: bold; 
+                    
+                        }
+.guess-num {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 576px;
+    margin: 0 auto;
+}
+
+  @media (max-width: 1024px) {
+    .guess-num {
+        width: 400px;
+    }
+  }
+
+
+
+@media (max-width: 480px) {
+    .guess-num {
+    flex-wrap: wrap;
+    }
+  }
+  .line {
+    width: 536px; 
+    height: 1px;
+    background-color: black;
+    margin: 20px auto;
+    display: block;
+  }
