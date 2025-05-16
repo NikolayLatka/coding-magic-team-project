@@ -84,7 +84,7 @@
 
         .line {
             height: 3px;
-            background: #ccc;
+            background: #000000;
             margin: 0 5px;
             flex-grow: 1;
             max-width: 18px;
@@ -97,7 +97,7 @@
 
         .line.active {
             width: 30px ;
-  background: rgba(121, 121, 121, 1);
+  background: rgb(122, 122, 122);
         }
 
         .li{
@@ -190,6 +190,15 @@
 //     height: auto;
 //   }
 // }
+
+.line_dark{
+  background: #ffffff;
+}
+.line.active_dark {
+            width: 30px ;
+  background: rgb(43, 172, 179);
+        }
+
 .team-slider_dark {
  color: white;
     background-color: #494949;
@@ -222,7 +231,7 @@
 
 .arrow_dark {
  color: white;
-    background-color: #494949;
+    
 }
 
 
