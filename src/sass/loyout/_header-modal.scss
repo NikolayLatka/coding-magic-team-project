@@ -41,6 +41,15 @@
     opacity: 0;
     transition: all 0.3s ease-in-out;
 
+
+}
+
+.header-modal_dark {
+    color: white;
+    background-color: #6f6f6f;
+    -webkit-box-shadow: 0px 0px 11px 2px rgba(255, 255, 255, 1);
+-moz-box-shadow: 0px 0px 11px 2px rgba(255, 255, 255, 1);
+box-shadow: 0px 0px 11px 2px rgba(255, 255, 255, 1);
 }
 
 .header-backdrop.open-modal .header-modal {
@@ -77,6 +86,22 @@
         width: 349px;
 }
 
+.header-modal-close_dark {
+    filter: invert(1);
+}
+
+.modal-info_dark {
+    color: white;
+}
+
+.header-modal-greetings_dark {
+    color: white;
+}
+
+
+.input-describtion_dark {
+    color: white;
+}
 
 .header-modal-close {
     position: absolute;

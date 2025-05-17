@@ -4,16 +4,32 @@
     align-items: center;
     flex-direction: row;
     background-color: #ffffff;
-    width: 1440px;
+    width: 1435px;
     height: 80px;
     gap: 55px;
     padding-left: 175px;
     user-select: none;
 }
 
+.header-flex_dark {
+    color: white;
+    background-color: #6f6f6f;
+}
+
+
+.header {
+    z-index: 1;
+}
+
+// .header_dark {
+//     -webkit-box-shadow: 0px 10px 9px -7px rgba(255, 255, 255, 1);
+//     -moz-box-shadow: 0px 10px 9px -7px rgba(255, 255, 255, 1);
+//     box-shadow: 0px 10px 9px -7px rgba(255, 255, 255, 1);
+// }
 
 .header-arrow {
     transform: rotate(90deg);
+    cursor: pointer;
 }
 
 .interactives-wrap {
@@ -25,6 +41,13 @@
 
 }
 
+.header-team-link_dark {
+    color: white;
+}
+
+.header-contact-link_dark {
+    color: white;
+}
 
 .header-logo {
     width: 133px;
@@ -69,7 +92,7 @@
 }
 
 input:checked + .slider {
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.11);
 }
 
 input:checked + .slider .toggle-dot {
