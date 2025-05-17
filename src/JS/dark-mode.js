@@ -54,6 +54,8 @@ function changeMode() {
     document.querySelector(".header-modal-close").style.borderRadius = "60px"
     document.querySelector(".header-modal-close").style.padding = "10px"
 
+
+
     const mainTitle = document.querySelector(".main-title");
     mainTitle.classList.toggle("main-title_dark");
 
@@ -70,6 +72,15 @@ rpsTitle.classList.toggle("rps-title_dark");
 const isDarkRps = rpsTitle.classList.contains("rps-title_dark");
 
 document.documentElement.style.setProperty("--underline-color", isDarkRps ? "white" : "black");
+
+
+
+const calculatorTitle = document.querySelector(".calculator-title");
+calculatorTitle.classList.toggle("calculator-title_dark");
+
+const isDarkCalculator = calculatorTitle.classList.contains("calculator-title_dark");
+
+document.documentElement.style.setProperty("--calculator-underline" , isDarkCalculator ? "white" : "black")
 
 
 
