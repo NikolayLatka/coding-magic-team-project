@@ -81,10 +81,59 @@
     flex-wrap: wrap;
     }
   }
-  .line {
-    width: 536px; 
+  // .line {
+  //  height: 3px;
+  //  background-color: #000000;
+  //  margin: 0 5px;
+  //  width: 18px;
+  // }
+  .guess-section::after {
+    content: " ";
+    display: block;
+    width: 536px;
     height: 1px;
     background-color: black;
-    margin: 20px auto;
-    display: block;
+    margin-top: 36px;
+}
+
+
+.guess-section_dark{
+ color: white;
+    background-color: #494949;
+    } 
+     .guess-title_dark {
+    color: white;
+    background-color: #494949;
+        } 
+         .input-container_dark 
+        { 
+          color: white;
+    background-color: #494949; }
+
+      .search-icon_dark { 
+
+                 color: white;
+    background-color: #494949; } 
+
+    
+                     .resultMessage_dark { 
+
+             color: white;
+    background-color: #494949;
+                        }
+                        .guess-num_dark {
+              color: white;
+    background-color: #494949;             
+}
+ @media (max-width: 1024px) {
+    .guess-num_dark {
+        color: white;
+    background-color: #494949;
+    }
+  }
+@media (max-width: 480px) {
+    .guess-num {
+  color: white;
+    background-color: #494949;
+    }
   }
