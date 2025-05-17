@@ -58,10 +58,6 @@ function changeMode() {
     document.querySelector(".header-modal-greetings").classList.toggle("header-modal-greetings_dark");
     document.querySelector(".input-describtion").style.color = "white"
     document.querySelector(".header-modal-close").classList.toggle("header-modal-close_dark");
-    document.querySelector(".header-modal-close").style.boxShadow = "0px 0px 11px 2px rgb(0, 0, 0)"
-    document.querySelector(".header-modal-close").style.backgroundColor = "rgb(134 , 134 , 134)"
-    document.querySelector(".header-modal-close").style.borderRadius = "60px"
-    document.querySelector(".header-modal-close").style.padding = "10px"
 
     
 
