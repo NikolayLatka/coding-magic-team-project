@@ -38,14 +38,23 @@ function updateResult(winner) {
 if (winner === "user") {
     userScore++;
     resultMessage.textContent = "Ви виграли раунд!";
-    resultMessage.style.color = "green";
+    resultMessage.style.color = "rgb(111, 243, 93)";
+    resultMessage.style.backgroundColor = "rgb(44, 44, 44)";
+    resultMessage.style.borderRadius = "20px";
+    resultMessage.style.padding = "15px";
 } else if (winner === "computer") {
     computerScore++;
     resultMessage.textContent = "Комп’ютер виграв раунд!";
-    resultMessage.style.color = "red";
+    resultMessage.style.color = "rgb(253, 96, 96)";
+    resultMessage.style.backgroundColor = "rgb(44, 44, 44)";
+    resultMessage.style.borderRadius = "20px";
+    resultMessage.style.padding = "15px";
 } else {
     resultMessage.textContent = "Нічия!";
-    resultMessage.style.color = "gray";
+    resultMessage.style.color = "white";
+    resultMessage.style.backgroundColor = "rgb(44, 44, 44)";
+    resultMessage.style.borderRadius = "20px";
+    resultMessage.style.padding = "15px";
 }
 
 userScoreEl.textContent = userScore;

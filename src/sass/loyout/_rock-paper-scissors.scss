@@ -7,14 +7,7 @@
     flex-direction: column;
 }
 
-.rps-card::after {
-    content: " ";
-    display: block;
-    width: 536px;
-    height: 1px;
-    background-color: black;
-    margin-top: 36px;
-}
+
 
 .rps-box {
     border-radius: 20px;
@@ -24,6 +17,9 @@
 
 }
 
+:root {
+    --underline-color: black; 
+}
 
 .rps-title {
     font-size: 16px;
@@ -33,8 +29,26 @@
     transform: scale(1.2);
 }
 
+.rps-title_dark {
+    color: white;
+}
+
+.rps-card::after {
+    content: " ";
+    display: block;
+    width: 536px;
+    height: 1px;
+    margin-top: 36px;
+    background-color: var(--underline-color);
+}
+
+
 .rps-result {
     margin-top: 36px;
+}
+
+.rps-result_dark {
+    color: white;
 }
 
 .computer-result {
@@ -96,4 +110,21 @@
     flex-direction: column;
     justify-content: center;
     user-select: none;
+}
+
+.scoreboard_dark {
+    color: white;
+}
+
+
+.scoreboard-result_dark {
+    color: white;
+}
+
+.scoreboard-pc_dark {
+    color: white;
+}
+
+.scoreboard-player_dark {
+    color: white;
 }

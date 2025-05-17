@@ -64,3 +64,4 @@ function updateText() {
         paragraph.textContent = "Вітаємо, User!";
     }
 }
+
