@@ -32,7 +32,7 @@
 // });
 document.addEventListener('DOMContentLoaded', function() {
     const slides = document.querySelectorAll('.slide');
-    const lines = document.querySelectorAll('.line');
+    const lines = document.querySelectorAll('.liner');
     const prevBtn = document.querySelector('.left-arrow');
     const nextBtn = document.querySelector('.right-arrow');
     let currentSlide = 0;
@@ -43,12 +43,12 @@ document.addEventListener('DOMContentLoaded', function() {
             slide.classList.toggle('active', index === 0);
         });
         
-        lines.forEach((line, index) => {
-            line.classList.toggle('active', index === 0);
+        lines.forEach((liner, index) => {
+            liner.classList.toggle('active', index === 0);
             // Примусово застосовуємо стилі для першої лінії
             if (index === 0) {
-                line.style.width = '18px';
-                line.style.backgroundColor = '#000';
+                liner.style.width = '18px';
+                liner.style.backgroundColor = '#000';
             }
         });
     }
@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Обробники подій
     prevBtn.addEventListener('click', () => showSlide(currentSlide - 1));
     nextBtn.addEventListener('click', () => showSlide(currentSlide + 1));
-    lines.forEach((line, index) => {
-        line.addEventListener('click', () => showSlide(index));
+    lines.forEach((liner, index) => {
+        liner.addEventListener('click', () => showSlide(index));
     });
 });
