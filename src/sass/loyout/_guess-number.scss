@@ -1,12 +1,10 @@
-
 .guess-section{
-     width: 576px; 
-     height: 91px; 
-     font-family: Arial, sans-serif; 
+display: flex;
+flex-direction: column;
+justify-content: center;
      text-align: center; 
-     color: #333; 
-     padding: 20px; 
-     font-family: Montserrat Alternates;
+padding: 36px 0;
+align-items: center;
 
      
     } 
