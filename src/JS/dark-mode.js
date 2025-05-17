@@ -5,7 +5,7 @@ const toggleDot = document.querySelector(".toggle-dot");
 
 toggle.addEventListener("change", () => {
     if (toggle.checked) {
-    themeIcon.src = "../img/moon.svg";
+    themeIcon.src = "./img/moon.svg";
     toggleSlider.style.backgroundColor = "rgb(43, 43, 43)"
     toggleSlider.style.boxShadow = "0px 0px 10px white";
     toggleDot.style.backgroundColor = "black";
