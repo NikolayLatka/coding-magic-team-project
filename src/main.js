@@ -1,4 +1,4 @@
-import './JS/guess-number'
+import './JS/guess-number';
 import './JS/calculator';
 import './JS/greatest-num'
 import './JS/team-slider'
