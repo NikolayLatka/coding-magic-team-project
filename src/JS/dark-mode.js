@@ -63,7 +63,9 @@ function changeMode() {
     document.querySelector(".team-slider").classList.toggle("team-slider_dark");
     document.querySelector(".left-arrow").classList.toggle("left-arrow_dark");
     document.querySelector(".right-arrow").classList.toggle("right-arrow_dark");
-    
+    document.querySelector(".footer-modal").classList.toggle("footer-modal_dark");
+    document.querySelector(".footer-modal-greetings").classList.toggle("footer-modal-greetings_dark");
+    document.querySelector(".footer-modal-close").classList.toggle("footer-modal-close_dark");
 
     const mainTitle = document.querySelector(".main-title");
     mainTitle.classList.toggle("main-title_dark");
