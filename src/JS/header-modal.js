@@ -4,22 +4,30 @@ const closeModalBtn = document.querySelector(".header-modal-close");
 const backdrop = document.querySelector(".header-backdrop");
 const modal = document.querySelector(".header-modal");
 
+backdrop.classList.add("open-modal");
+document.body.classList.add("no-scroll");
+
+
 // Open modal
 openModalBtn.addEventListener("click", () => {
     backdrop.classList.add("open-modal");
+    document.body.classList.add("no-scroll");
 });
 
 // Close modal with close button
 closeModalBtn.addEventListener("click", () => {
     backdrop.classList.remove("open-modal");
+    document.body.classList.remove("no-scroll");
 });
 
-// Close modal by clicking *only* on the backdrop (not the modal)
+// Close modal by clicking only on the backdrop
 backdrop.addEventListener("click", (e) => {
     if (e.target === backdrop) {
         backdrop.classList.remove("open-modal");
+        document.body.classList.remove("no-scroll");
     }
 });
+
 
 // Close the modal by pressing enter key
 

@@ -84,7 +84,52 @@
   .line {
     width: 536px; 
     height: 1px;
-    background-color: black;
-    margin: 20px auto;
-    display: block;
+    background-color: var(--guess-underline);
+    margin-top: 36px;
+}
+
+
+:root {
+  --guess-underline: black;
+}
+
+
+
+.guess-section_dark{
+ color: white;
+    } 
+     .guess-title_dark {
+    color: white;
+        } 
+         .input-container_dark 
+        { 
+          color: white;
+    background-color: #494949; }
+
+      .search-icon_dark { 
+
+                 color: white;
+    background-color: #494949; } 
+
+    
+                     .resultMessage_dark { 
+
+             color: white;
+    background-color: #494949;
+                        }
+                        .guess-num_dark {
+              color: white;
+    background-color: #494949;             
+}
+ @media (max-width: 1024px) {
+    .guess-num_dark {
+        color: white;
+    background-color: #494949;
+    }
+  }
+@media (max-width: 480px) {
+    .guess-num {
+  color: white;
+    background-color: #494949;
+    }
   }

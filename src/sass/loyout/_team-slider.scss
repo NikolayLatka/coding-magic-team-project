@@ -5,6 +5,31 @@
   margin: 0 auto;
   padding: 20px;
 }
+.team-slider_dark {
+  color: white;
+}
+
+.slider-title {
+  color: inherit;
+}
+.slider-title_dark {
+  color: white;
+}
+
+.slider-name {
+  color: inherit;
+}
+.slider-name_dark {
+  color: white;
+}
+
+.slider-info {
+  color: inherit;
+  padding-top: 20px;
+}
+.slider-info_dark {
+  color: white;
+}
 
 .slider-wrapper {
   position: relative;
@@ -47,17 +72,23 @@
 }
 
 .arrow {
-     
-   padding-bottom: 130px;
-  
+  padding-bottom: 130px;
 }
+
+
 
 .right-arrow{
   padding-left: 200px;
 }
+.right-arrow_dark {
+  filter: invert(1);
+}
 
 .left-arrow{
   padding-right: 200px;
+}
+.left-arrow_dark img {
+  filter: invert(1);
 }
 
 .arrow img {
