@@ -1,5 +1,5 @@
 
- .team-slider {
+.team-slider {
   text-align: center;
   max-width: 800px;
   margin: 0 auto;
@@ -7,6 +7,8 @@
 }
 .team-slider_dark {
   color: white;
+
+
 }
 
 .slider-title {
@@ -37,7 +39,10 @@
   align-items: center;
   justify-content: center;
   gap: 20px;
-  
+}
+.slider-wrapper_dark {
+  color: white;
+  background-color: #6f6f6f;
 }
 
 .slider-team {
@@ -45,6 +50,10 @@
   width: 300px;
   height: 350px;
   overflow: hidden;
+}
+.slider-team_dark {
+  color: white;
+  background-color: #6f6f6f;
 }
 
 .slide {
@@ -55,9 +64,17 @@
   opacity: 0;
   transition: opacity 0.5s ease;
 }
+.slide_dark {
+  color: white;
+  background-color: #6f6f6f;
+}
 
 .slide.active {
   opacity: 1;
+}
+.slide.active_dark {
+  color: white;
+  background-color: #6f6f6f;
 }
 
 .slider-img {
@@ -73,6 +90,7 @@
 
 .arrow {
   padding-bottom: 130px;
+
 }
 
 
@@ -82,11 +100,13 @@
 }
 .right-arrow_dark {
   filter: invert(1);
+
 }
 
-.left-arrow{
+.left-arrow {
   padding-right: 200px;
 }
+
 .left-arrow_dark img {
   filter: invert(1);
 }
@@ -94,183 +114,50 @@
 .arrow img {
   width: 100%;
   height: auto;
-
 }
 
 .slide-content {
   margin-top: 20px;
   padding-top: 30px;
-
-  
+  color: inherit;
 }
-.slider-info{
-  padding-top: 20px;
-}
-
- .slider-lines {
-            display: flex;
-            justify-content: center;
-            margin-top: 30px;
-        }
-
-        .line {
-            height: 3px;
-            background: #000000;
-            margin: 0 5px;
-            flex-grow: 1;
-            max-width: 18px;
-            cursor: pointer;
-            transition: background 0.3s;
-            border-radius: 3px;
-            position: relative;
-            bottom: 90px;
-        }
-
-        .line.active {
-            width: 30px ;
-  background: rgb(122, 122, 122);
-        }
-
-        .li{
-
-    width: 536px; 
-    height: 1px;
-    background-color: rgba(0, 0, 0, 1);
-    margin: 20px auto;
-    display: block;
-    position: relative;
-    bottom: 80px;
-}
-// @media (max-width: 768px) {
-//   .team-slider {
-//     padding: 10px;
-//     max-width: 100%;
-//   }
-
-//   .slider-wrapper {
-//     flex-direction: column;
-//     gap: 10px;
-//   }
-
-//   .slider-team {
-//     width: 100%;
-//     height: auto;
-//   }
-
-//   .slider-img {
-//     width: 120px;
-//     height: 120px;
-//     top: 0;
-//   }
-
-//   .slide-content {
-//     top: 0;
-//     margin-top: 10px;
-//   }
-
-//   .arrow {
-//     display: flex;
-//     justify-content: space-between;
-//     width: 100%;
-//     padding: 0 20px;
-//   }
-
-//   .arrow img {
-//     width: 30px;
-//     height: auto;
-//   }
-// }
-
-// @media (max-width: 460px) {
-//   .team-slider {
-//     padding: 10px;
-//     max-width: 100%;
-//   }
-
-//   .slider-wrapper {
-    
-//     flex-direction: column;
-//     gap: 10px;
-//   }
-
-//   .slider-team {
-//     width: 100%;
-//     height: auto;
-//   }
-
-//   .slider-img {
-//     width: 120px;
-//     height: 120px;
-//     top: 0;
-//   }
-
-//   .slide-content {
-//     top: 0;
-//     margin-top: 10px;
-//   }
-
-//   .arrow {
-//     display: flex;
-//     justify-content: space-between;
-//     width: 100%;
-//     padding: 0 20px;
-//   }
-
-//   .arrow img {
-//     width: 30px;
-//     height: auto;
-//   }
-// }
-
-.line_dark{
-  background: #ffffff;
-}
-.line.active_dark {
-            width: 30px ;
-  background: rgb(43, 172, 179);
-        }
-
-.team-slider_dark {
- color: white;
-    background-color: #494949;
-}
-
-.slider-wrapper_dark {
- 
-    background-color: #494949;
-}
-
-.slider-team_dark {
-  color: white;
-    background-color: #494949;
-}
-
-.slide_dark {
- color: white;
-    background-color: #494949;
-}
-
-.slide_dark.active_dark {
- color: white;
-    background-color: #494949;
-}
-
-.slider-img_dark {
-  color: white;
-    background-color: #494949;
-}
-
-.arrow_dark {
- color: white;
-    
-}
-
-
-
 .slide-content_dark {
   color: white;
-    background-color: #494949;
+  background-color: #6f6f6f;
 }
 
+.slider-lines {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.slider-lines_dark {
+  color: white;
+  background-color: #6f6f6f;
+}
+
+.liner {
+  height: 3px;
+  background: #999999;
+  margin: 0 5px;
+  flex-grow: 1;
+  max-width: 18px;
+  cursor: pointer;
+  transition: background 0.3s;
+  border-radius: 3px;
+  position: relative;
+  bottom: 90px;
+}
+.liner_dark {
+  background: rgb(0, 170, 255);
+}
+
+.liner.active {
+  width: 30px;
+  background: rgb(0, 0, 0);
+}
+.liner.active_dark {
+  background: white;
+}
 
 

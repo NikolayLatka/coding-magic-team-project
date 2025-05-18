@@ -1,12 +1,10 @@
-
 .guess-section{
-     width: 576px; 
-     height: 91px; 
-     font-family: Arial, sans-serif; 
+display: flex;
+flex-direction: column;
+justify-content: center;
      text-align: center; 
-     color: #333; 
-     padding: 20px; 
-     font-family: Montserrat Alternates;
+padding: 36px 0;
+align-items: center;
 
      
     } 
@@ -81,12 +79,23 @@
     flex-wrap: wrap;
     }
   }
-  .line {
-    width: 536px; 
+  // .line {
+  //  height: 3px;
+  //  background-color: #000000;
+  //  margin: 0 5px;
+  //  width: 18px;
+  // }
+  .guess-section::after {
+    content: " ";
+    display: block;
+    width: 536px;
     height: 1px;
+
     background-color: var(--guess-underline);
+
     margin-top: 36px;
 }
+
 
 
 :root {
@@ -100,6 +109,8 @@
     } 
      .guess-title_dark {
     color: white;
+
+
         } 
          .input-container_dark 
         { 
