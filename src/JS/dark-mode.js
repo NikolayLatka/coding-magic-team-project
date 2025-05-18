@@ -58,7 +58,11 @@ function changeMode() {
     document.querySelector(".header-modal-greetings").classList.toggle("header-modal-greetings_dark");
     document.querySelector(".input-describtion").style.color = "white"
     document.querySelector(".header-modal-close").classList.toggle("header-modal-close_dark");
-
+    document.querySelector(".guess-section").classList.toggle("guess-section_dark");
+    document.querySelector(".lin").classList.toggle("lin_dark");
+    document.querySelector(".team-slider").classList.toggle("team-slider_dark");
+    document.querySelector(".left-arrow").classList.toggle("left-arrow_dark");
+    document.querySelector(".right-arrow").classList.toggle("right-arrow_dark");
     
 
     const mainTitle = document.querySelector(".main-title");
@@ -88,6 +92,13 @@ const isDarkCalculator = calculatorTitle.classList.contains("calculator-title_da
 document.documentElement.style.setProperty("--calculator-underline" , isDarkCalculator ? "white" : "black")
 
 
+
+const guessTitle = document.querySelector(".guess-title");
+guessTitle.classList.toggle("guess-title_dark");
+
+const isDarkGuess = guessTitle.classList.contains("guess-title_dark");
+
+document.documentElement.style.setProperty("--guess-underline" , isDarkGuess ? "white" : "black");
 
 
     const headerLogo = document.querySelector(".header-logo-img");
