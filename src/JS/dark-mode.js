@@ -1,3 +1,12 @@
+import imageLogoLight from '../img/coding-magic-logo.svg';
+import imageLogoDark from '../img/coding-magic-logo_dark.svg';
+import imageMoon from '../img/moon.svg';
+import imageSun from '../img/sun.svg';
+
+
+
+
+
 const toggle = document.getElementById("themeToggle");
 const toggleSlider = document.querySelector(".slider")
 const themeIcon = document.getElementById("themeIcon");
@@ -5,14 +14,14 @@ const toggleDot = document.querySelector(".toggle-dot");
 
 toggle.addEventListener("change", () => {
     if (toggle.checked) {
-    themeIcon.src = "./img/moon.svg";
+    themeIcon.src = imageMoon;
     toggleSlider.style.backgroundColor = "rgb(43, 43, 43)"
     toggleSlider.style.boxShadow = "0px 0px 10px white";
     toggleDot.style.backgroundColor = "black";
     document.body.style.backgroundColor = "rgb(43, 43, 43)";
     } else {
     toggleSlider.style.backgroundColor = "rgb(122, 122, 122)"
-    themeIcon.src = "./img/sun.svg";
+    themeIcon.src = imageSun;
     toggleDot.style.backgroundColor = "";
     document.body.style.backgroundColor = "white";
     }
@@ -49,12 +58,14 @@ function changeMode() {
     document.querySelector(".header-modal-greetings").classList.toggle("header-modal-greetings_dark");
     document.querySelector(".input-describtion").style.color = "white"
     document.querySelector(".header-modal-close").classList.toggle("header-modal-close_dark");
-    document.querySelector(".header-modal-close").style.boxShadow = "0px 0px 11px 2px rgb(0, 0, 0)"
-    document.querySelector(".header-modal-close").style.backgroundColor = "rgb(134 , 134 , 134)"
-    document.querySelector(".header-modal-close").style.borderRadius = "60px"
-    document.querySelector(".header-modal-close").style.padding = "10px"
-
-
+    document.querySelector(".guess-section").classList.toggle("guess-section_dark");
+    document.querySelector(".lin").classList.toggle("lin_dark");
+    document.querySelector(".team-slider").classList.toggle("team-slider_dark");
+    document.querySelector(".left-arrow").classList.toggle("left-arrow_dark");
+    document.querySelector(".right-arrow").classList.toggle("right-arrow_dark");
+    document.querySelector(".footer-modal").classList.toggle("footer-modal_dark");
+    document.querySelector(".footer-modal-greetings").classList.toggle("footer-modal-greetings_dark");
+    document.querySelector(".footer-modal-close").classList.toggle("footer-modal-close_dark");
 
     const mainTitle = document.querySelector(".main-title");
     mainTitle.classList.toggle("main-title_dark");
@@ -84,15 +95,22 @@ document.documentElement.style.setProperty("--calculator-underline" , isDarkCalc
 
 
 
+const guessTitle = document.querySelector(".guess-title");
+guessTitle.classList.toggle("guess-title_dark");
+
+const isDarkGuess = guessTitle.classList.contains("guess-title_dark");
+
+document.documentElement.style.setProperty("--guess-underline" , isDarkGuess ? "white" : "black");
+
 
     const headerLogo = document.querySelector(".header-logo-img");
     if (headerLogo) {
-        headerLogo.src = isDark ? "./img/coding-magic-logo_dark.svg" : "./img/coding-magic-logo.svg";
+        headerLogo.src = isDark ? imageLogoDark : imageLogoLight;
     }
 
     const footerLogo = document.querySelector(".footer-logo");
     if (footerLogo) {
-        footerLogo.src = isDark ? "./img/coding-magic-logo_dark.svg" : "./img/coding-magic-logo.svg"
+        footerLogo.src = isDark ? imageLogoDark : imageLogoLight
     }
 
 
