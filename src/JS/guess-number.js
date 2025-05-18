@@ -1,6 +1,6 @@
 const randomNumber = Math.floor(Math.random() * 100) + 1;
 
-function handleSearch() {
+document.querySelector(".search-icon").addEventListener("click", function () {
     const inputValue = document.getElementById("inputField").value;
     const resultMessage = document.querySelector(".resultMessage");
 
@@ -14,4 +14,4 @@ function handleSearch() {
         resultMessage.textContent = "Спробуйте ще!";
         resultMessage.style.color = "red";
     }
-}
+});
