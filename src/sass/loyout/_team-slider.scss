@@ -164,86 +164,7 @@
     position: relative;
     bottom: 80px;
 }
-// @media (max-width: 768px) {
-//   .team-slider {
-//     padding: 10px;
-//     max-width: 100%;
-//   }
 
-//   .slider-wrapper {
-//     flex-direction: column;
-//     gap: 10px;
-//   }
-
-//   .slider-team {
-//     width: 100%;
-//     height: auto;
-//   }
-
-//   .slider-img {
-//     width: 120px;
-//     height: 120px;
-//     top: 0;
-//   }
-
-//   .slide-content {
-//     top: 0;
-//     margin-top: 10px;
-//   }
-
-//   .arrow {
-//     display: flex;
-//     justify-content: space-between;
-//     width: 100%;
-//     padding: 0 20px;
-//   }
-
-//   .arrow img {
-//     width: 30px;
-//     height: auto;
-//   }
-// }
-
-// @media (max-width: 460px) {
-//   .team-slider {
-//     padding: 10px;
-//     max-width: 100%;
-//   }
-
-//   .slider-wrapper {
-    
-//     flex-direction: column;
-//     gap: 10px;
-//   }
-
-//   .slider-team {
-//     width: 100%;
-//     height: auto;
-//   }
-
-//   .slider-img {
-//     width: 120px;
-//     height: 120px;
-//     top: 0;
-//   }
-
-//   .slide-content {
-//     top: 0;
-//     margin-top: 10px;
-//   }
-
-//   .arrow {
-//     display: flex;
-//     justify-content: space-between;
-//     width: 100%;
-//     padding: 0 20px;
-//   }
-
-//   .arrow img {
-//     width: 30px;
-//     height: auto;
-//   }
-// }
 
 .line_dark{
   background: #ffffff;
@@ -261,6 +182,24 @@
  color: white;
 
 }
+.line.active_dark {
+            width: 30px ;
+  background: rgb(43, 172, 179);
+        }
+
+.team-slider_dark {
+ color: white;
+
+
+}
+
+.slider-wrapper_dark {
+ 
+    background-color: #494949;
+}
+
+.active_dark{
+  background: rgb(63, 154, 151);
 
 .slider-wrapper_dark {
  
@@ -276,6 +215,21 @@
     background-color: #494949;
 
 }
+.slider-team_dark {
+  color: white;
+    background-color: #494949;
+
+
+}
+
+.slide_dark {
+ color: white;
+    background-color: #494949;
+}
+
+.slide_dark.active_dark {
+ color: white;
+    background-color: #494949;
 
 .slide_dark {
  color: white;
@@ -295,7 +249,26 @@
 .arrow_dark {
  color: white;
     
+
 }
+
+.slider-img_dark {
+  color: white;
+    background-color: #494949;
+}
+
+.arrow_dark {
+ color: white;
+    
+}
+
+
+
+.slide-content_dark {
+  color: white;
+    background-color: #494949;
+}
+
 
 
 
