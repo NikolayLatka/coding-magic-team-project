@@ -38,6 +38,7 @@ modal.addEventListener("keydown", (event) => {
             if (input.value.trim() !== "") {
                 warning.style.display = "none";
                 backdrop.classList.remove("open-modal");
+                document.body.classList.remove("no-scroll");
             } else {
                 warning.style.display = "block";
         }
