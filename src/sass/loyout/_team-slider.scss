@@ -248,6 +248,10 @@
 .line_dark{
   background: #ffffff;
 }
+
+.liner_dark {
+  background: rgb(255, 255, 255);
+
 .line.active_dark {
             width: 30px ;
   background: rgb(43, 172, 179);
@@ -255,6 +259,7 @@
 
 .team-slider_dark {
  color: white;
+
 }
 
 .slider-wrapper_dark {
@@ -262,9 +267,14 @@
     background-color: #494949;
 }
 
+.liner.active_dark {
+  background: rgb(63, 154, 151);
+
+
 .slider-team_dark {
   color: white;
     background-color: #494949;
+
 }
 
 .slide_dark {
