@@ -136,29 +136,29 @@
   background-color: #6f6f6f;
 }
 
-// .liner {
-//   height: 3px;
-//   background: #999999;
-//   margin: 0 5px;
-//   flex-grow: 1;
-//   max-width: 18px;
-//   cursor: pointer;
-//   transition: background 0.3s;
-//   border-radius: 3px;
-//   position: relative;
-//   bottom: 90px;
-// }
-// .liner_dark {
-//   background: rgb(255, 255, 255);
-// }
+.liner {
+  height: 3px;
+  background: #999999;
+  margin: 0 5px;
+  flex-grow: 1;
+  max-width: 18px;
+  cursor: pointer;
+  transition: background 0.3s;
+  border-radius: 3px;
+  position: relative;
+  bottom: 90px;
+}
+.liner_dark {
+  background: rgb(255, 255, 255);
+}
 
-// .liner.active {
-//   width: 30px;
-//   background: rgb(0, 0, 0);
-// }
-// .liner.active_dark {
-//   background: rgb(63, 154, 151);
-// }
+.liner.active {
+  width: 30px;
+  background: rgb(0, 0, 0);
+}
+.liner.active_dark {
+  background: rgb(63, 154, 151);
+}
 
 .li {
   width: 536px;
