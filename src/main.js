@@ -1,3 +1,4 @@
+import './JS/year-check';
 import './JS/guess-number';
 import './JS/calculator';
 import './JS/greatest-num';
