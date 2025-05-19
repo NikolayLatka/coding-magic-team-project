@@ -8,7 +8,7 @@ import imageSun from '../img/sun.svg';
 
 
 const toggle = document.getElementById("themeToggle");
-const toggleSlider = document.querySelector(".slider")
+const toggleSlider = document.querySelector(".slider");
 const themeIcon = document.getElementById("themeIcon");
 const toggleDot = document.querySelector(".toggle-dot");
 
