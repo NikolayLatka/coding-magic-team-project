@@ -90,18 +90,27 @@ align-items: center;
     display: block;
     width: 536px;
     height: 1px;
-    background-color: black;
+
+    background-color: var(--guess-underline);
+
     margin-top: 36px;
 }
 
 
+
+:root {
+  --guess-underline: black;
+}
+
+
+
 .guess-section_dark{
  color: white;
-    background-color: #494949;
     } 
      .guess-title_dark {
     color: white;
-    background-color: #494949;
+
+
         } 
          .input-container_dark 
         { 
