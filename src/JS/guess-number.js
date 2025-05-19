@@ -6,7 +6,7 @@ document.querySelector(".search-icon").addEventListener("click", function () {
 
     if (inputValue) {
         if (parseInt(inputValue) === randomNumber) {
-            resultMessage.textContent = `Вітаю, ви вгадали число!${randomNumber})`;
+            resultMessage.textContent = `Вітаю, ви вгадали число!(${randomNumber})`;
             resultMessage.style.color = "rgb(3, 153, 0)";
         } else {
             resultMessage.textContent = `Ви програли, Комп'ютер згадав ${randomNumber}`;
