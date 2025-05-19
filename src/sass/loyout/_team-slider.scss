@@ -136,9 +136,9 @@
   background-color: #6f6f6f;
 }
 
-        .line {
+        .liner {
             height: 3px;
-            background: #000000;
+            background: #f7f7f7;
             margin: 0 5px;
             flex-grow: 1;
             max-width: 18px;
@@ -149,9 +149,9 @@
             bottom: 90px;
         }
 
-        .line.active {
+        .liner.active {
             width: 30px ;
-  background: rgb(122, 122, 122);
+  background: rgb(51, 51, 51);
         }
 
         .li{
@@ -166,32 +166,21 @@
 }
 
 
-.line_dark{
-  background: #ffffff;
-}
+
 
 .liner_dark {
   background: rgb(255, 255, 255);
+}
 
-.line.active_dark {
-            width: 30px ;
-  background: rgb(43, 172, 179);
-        }
+
+
 
 .team-slider_dark {
  color: white;
-
 }
-.line.active_dark {
-            width: 30px ;
-  background: rgb(43, 172, 179);
-        }
-
-.team-slider_dark {
- color: white;
 
 
-}
+
 
 .slider-wrapper_dark {
  
@@ -201,24 +190,12 @@
 
 .active_dark{
   background: rgb(63, 154, 151);
-
+}
 .slider-wrapper_dark {
  
     background-color: #494949;
 }
 
-.liner.active_dark {
-  background: rgb(63, 154, 151);
-
-
-.slider-team_dark {
-  color: white;
-    background-color: #494949;
-
-}
-
-
-
 .slider-team_dark {
   color: white;
     background-color: #494949;
@@ -226,19 +203,25 @@
 
 }
 
-.slide_dark {
- color: white;
-    background-color: #494949;
-}
 
-.slide_dark.active_dark {
- color: white;
-    background-color: #494949;
+
+
+
+
+
 
 .slide_dark {
  color: white;
     background-color: #494949;
 }
+
+.active_dark {
+ color: white;
+    background-color: #494949;
+}
+
+
+
 
 .slide_dark.active_dark {
  color: white;
@@ -252,14 +235,14 @@
 
 .arrow_dark {
  color: white;
-    
-
+   
 }
-
 .slider-img_dark {
   color: white;
     background-color: #494949;
+
 }
+
 
 .arrow_dark {
  color: white;
@@ -276,10 +259,6 @@
 
 
 
-.slide-content_dark {
-  color: white;
-    background-color: #494949;
-}
 
 
 
