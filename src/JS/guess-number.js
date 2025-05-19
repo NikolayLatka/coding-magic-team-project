@@ -6,6 +6,7 @@ document.getElementById("inputField").addEventListener("input", function () {
         resultMessage.textContent = "";
     } else {
         resultMessage.textContent = "Введіть число від 1 до 10";
+                resultMessage.style.color = "black";
     }
 });
 
