@@ -136,6 +136,11 @@
   background-color: #6f6f6f;
 }
 
+
+:root {
+  --underline: black;
+}
+
         .liner {
             height: 3px;
             background: #f7f7f7;
@@ -158,11 +163,16 @@
 
     width: 536px; 
     height: 1px;
-    background-color: rgba(0, 0, 0, 1);
+    background-color: var(--underline);
     margin: 20px auto;
     display: block;
     position: relative;
     bottom: 80px;
+}
+
+
+.li_dark {
+  background-color: white;
 }
 
 
