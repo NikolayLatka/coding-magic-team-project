@@ -24,8 +24,14 @@ toggle.addEventListener("change", () => {
     themeIcon.src = imageSun;
     toggleDot.style.backgroundColor = "";
     document.body.style.backgroundColor = "white";
+    document.querySelector(".year-check__text").style.color = "black"
+    document.querySelector(".year-check__title").style.color = "black"
+    document.querySelector(".time-calc__title").style.color = "black"
+    document.querySelector(".footer-modal-greetings").style.color = "black"
     }
 });
+
+
 
 
 const title = document.querySelector(".main-title");
@@ -66,6 +72,11 @@ function changeMode() {
     document.querySelector(".footer-modal").classList.toggle("footer-modal_dark");
     document.querySelector(".footer-modal-greetings").classList.toggle("footer-modal-greetings_dark");
     document.querySelector(".footer-modal-close").classList.toggle("footer-modal-close_dark");
+    document.querySelector(".year-check__text").style.color = "white";
+    document.querySelector(".year-check__title").style.color = "white";
+    document.querySelector(".footer-modal-greetings").style.color = "white"
+    document.querySelector(".time-calc__title").style.color = "white"
+    document.querySelector(".li").classList.toggle("li_dark")
 
     const mainTitle = document.querySelector(".main-title");
     mainTitle.classList.toggle("main-title_dark");
@@ -73,6 +84,17 @@ function changeMode() {
     const isDark = mainTitle.classList.contains("main-title_dark");
 
     title.style.setProperty("--underline-color", isDark ? "white" : "black");
+
+
+
+
+
+    const time = document.querySelector(".time-calc");
+    time.classList.toggle("time-calc_dark");
+
+    const isDarkTime = time.classList.contains("time-calc_dark");
+
+    time.style.setProperty("--underline-black-color", isDarkTime ? "white" : "black");
 
 
 
@@ -101,6 +123,16 @@ guessTitle.classList.toggle("guess-title_dark");
 const isDarkGuess = guessTitle.classList.contains("guess-title_dark");
 
 document.documentElement.style.setProperty("--guess-underline" , isDarkGuess ? "white" : "black");
+
+
+
+const yearCheckTitie = document.querySelector(".year-check__title");
+yearCheckTitie.classList.toggle("year-check__title_dark");
+
+const isDarkYear = yearCheckTitie.classList.contains("year-check__title_dark");
+
+document.documentElement.style.setProperty("--line-color" , isDarkYear ? "white" : "black");
+
 
 
     const headerLogo = document.querySelector(".header-logo-img");

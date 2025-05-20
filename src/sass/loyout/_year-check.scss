@@ -2,13 +2,25 @@
   padding: 36px 0;
 }
 
+.year-check__text_dark {
+  color: white;
+}
+
+.year-check__title_dark {
+  color: white;
+}
+
+:root {
+  --line-color: black;
+}
+
 .year-check::after {
   margin: 0 auto;
   content: ' ';
   display: block;
   width: 536px;
   height: 1px;
-  background-color: black;
+  background-color: var(--line-color);
 }
 
 .year-check__title {
@@ -59,4 +71,5 @@
   font-weight: 400;
   font-size: 12px;
   text-align: right;
+  color: black;
 }

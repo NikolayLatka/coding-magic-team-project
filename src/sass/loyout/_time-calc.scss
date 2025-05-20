@@ -2,13 +2,23 @@
   padding: 36px 0;
 }
 
+.time-calc_dark {
+  color: white;
+}
+
+
+:root {
+  --underline-black-color: black;
+}
+
+
 .time-calc::after {
   margin: 0 auto;
   content: ' ';
   display: block;
   width: 536px;
   height: 1px;
-  background-color: black;
+  background-color: var(--underline-black-color);
 }
 
 .time-calc__title {
@@ -16,6 +26,11 @@
   text-align: center;
   margin-bottom: 36px;
   font-weight: 400;
+  color: #000;
+}
+
+.time-calc__title_dark {
+  color: white;
 }
 
 .time-calc--wrapp {
