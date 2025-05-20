@@ -1,12 +1,22 @@
-const randomNumber = Math.floor(Math.random() * 100) + 1;
+const resultMessage = document.querySelector(".resultMessage");
+resultMessage.textContent = "Введіть число від 1 до 10";
+
+document.getElementById("inputField").addEventListener("input", function () {
+    if (this.value) {
+        resultMessage.textContent = "";
+    } else {
+        resultMessage.textContent = "Введіть число від 1 до 10";
+                resultMessage.style.color = "black";
+    }
+});
 
 document.querySelector(".search-icon").addEventListener("click", function () {
     const inputValue = document.getElementById("inputField").value;
-    const resultMessage = document.querySelector(".resultMessage");
+    const randomNumber = Math.floor(Math.random() * 10) + 1;
 
     if (inputValue) {
         if (parseInt(inputValue) === randomNumber) {
-            resultMessage.textContent = `Вітаю, ви вгадали число!(${randomNumber})`;
+            resultMessage.textContent = `Вітаю, ви вгадали число! (${randomNumber})`;
             resultMessage.style.color = "rgb(3, 153, 0)";
         } else {
             resultMessage.textContent = `Ви програли, Комп'ютер згадав (${randomNumber})`;
